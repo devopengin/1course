@@ -1,0 +1,141 @@
+@import "./perem";
+@import "./extend.scss";
+@import "./mixin.scss";
+@import "./functions.scss";
+ul {
+    li {
+        display: inline;
+        float: left;
+        margin-left: 50px;
+    }
+    a {
+        display: inline-block;
+        border: 1px solid black;
+        padding: 5px 40px;
+        text-decoration: none;
+        color: $color-blue;
+    }
+  }
+  
+  .nav {
+    display:$display-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .logo {
+    img {
+        width: 50%;
+        margin-left: 30px;
+    }
+  }
+  
+.menu-big{
+    display: flex;
+    justify-content: space-between;
+    width:100%
+}
+.block{
+    display:block;
+    float:left;
+    width:69%;
+}
+.aside-menu{
+    display: block;
+    width:30%;
+}
+.zag{
+    @include mixin-flex;
+    background-color:$backgr-color;
+
+}
+.zag2{
+    @include mixin-flex;
+    align-items: center;
+    width:100%;
+    background-color: $backgr-color;
+    height:40px;
+}
+.zag3{
+    @include mixin-flex;
+    background-color: $backgr-color;
+
+    margin-top:$marg-top;
+}
+.form1{
+    background-color: $backgr-color;
+    width: 100%;
+    height: 220px;
+    font-size: 1.1em;   
+    color: rgb(131, 14, 14);
+    margin-bottom:10px;
+}
+.reg{
+    text-align: center;
+    font-weight: bold;
+}
+label{
+    @extend %form-extend;
+}
+.butt{
+    background-color: $backgr-color;
+    box-shadow: 0 0 4px white;
+    color: rgb(131, 14, 14);
+}
+input{
+    background-color: rgba(255,255,255,.5);
+    box-shadow: inset 0 0 10px rgba(255,255,255, .75);
+    border-radius: 5px;
+}
+
+input[type="date"]{
+    background-color: white;
+    border-radius: 0px;
+}
+.block1, .block2{
+    @include flex-space;
+}
+.block1 img, .block2 img{
+    width:150px;
+    height: 120px;
+    margin-top:$marg-top;
+}
+
+.block1 div, .block2 div{
+width:40%;
+margin-top:$marg-top;
+}
+.texts{
+    display: $display-flex;
+    justify-content: space-between;
+    margin-top: $marg-top;
+}
+.text1,
+.text2,
+.text3 {
+    @include mixin-flex;
+    width: 250px;
+    height: 250px;
+    background-color: $backgr-color;
+}
+.images{
+@include flex-space;
+    flex-direction: row;
+    margin-top:$marg-top;
+}
+.images img{
+    width:200px;
+    height:180px;
+}
+.cont-inform{
+display: $display-flex;
+background-color: $backgr-color;
+margin-top:5px;
+}
+h1{
+    font-size: $header-font-size;
+}
+p{
+    font-size: set-text-font-size($header-font-size);
+}

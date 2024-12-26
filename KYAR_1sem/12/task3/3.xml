@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="3.css"?>
+<body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="3.xsd">
+    <tovar>
+        <name><h1>Рулетка Volat-1</h1></name>
+        <type>Тип: рулетка</type>
+        <discr>
+        <p>Характеристики: </p>
+        <p>Длина - 5 м</p>
+        <p>Ширина - 3 м</p>
+        <p>Толщина - 50см</p>
+        <p>Материал - Сталь</p>
+        </discr>
+        <awards>Стоимость со скидкой - 99$</awards>
+    </tovar>
+    <tovar>
+        <name><h1>Шлифмашина</h1></name>
+        <type>Тип: эксцентриковая</type>
+        <discr>
+        <p>Характеристики: </p>
+        <p>Мощность - 450 Вт</p>
+        <p>Частота - 50гц</p>
+        <p>Вес - 2.1 кг</p>
+        <p>Упаковка - Картон</p>
+        </discr>
+        <awards>Стоимость со скидкой - 129$</awards>
+    </tovar>
+    <tovar>
+        <name><h1>Фен строительный</h1></name>
+        <type>Тип: прибор</type>
+        <discr>
+        <p>Характеристики: </p>
+        <p>Мощность - 490 Вт</p>
+        <p>Частота - 90гц</p>
+        <p>Вес - 1.1 кг</p>
+        <p>Упаковка - Пластик</p>
+        </discr>
+        <awards>Стоимость со скидкой - 101$</awards>
+    </tovar>
+    <tovar>
+        <name><h1>Пылесос</h1></name>
+        <type>Тип: прибор</type>
+        <discr>
+        <p>Характеристики: </p>
+        <p>Мощность - 120 Вт</p>
+        <p>Частота - 20гц</p>
+        <p>Вес - 3.1 кг</p>
+        <p>Упаковка - Картон</p>
+        </discr>
+        <awards>Стоимость со скидкой - 49$</awards>
+    </tovar>
+    <tovar>
+        <name><h1>Насос</h1></name>
+        <type>Тип: прибор</type>
+        <discr>
+        <p>Характеристики: </p>
+        <p>Длина - 1 м</p>
+        <p>Ширина - 0.5 м</p>
+        <p>Толщина - 50см</p>
+        <p>Материал - Сталь</p>
+        </discr>
+        <awards>Стоимость со скидкой - 10$</awards>
+    </tovar>
+</body>

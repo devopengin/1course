@@ -1,0 +1,41 @@
+tovar {
+    background-color: lightseagreen;
+    display: flex;
+    height: 30%;
+    width:15%;
+    flex-direction: column;
+    margin: auto;
+}
+h1{
+    background-color: rgb(237, 136, 136);
+    display: flex;
+    justify-content: center;
+}
+name{
+    font-size:23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+type{
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+discr{
+    font-size:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+awards 
+{
+    font-size:20px;
+    background-color: rgb(238, 66, 66);
+    text-align: center;
+}
+body{
+    display: flex;
+    height: 100%;
+    width:100%;
+    justify-content: space-between;
+}

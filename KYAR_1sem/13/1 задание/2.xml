@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../2.xsl"?>
+<students>
+    <student>
+        <lastname>Мирон</lastname>
+        <firstname>Никита</firstname>
+        <mark>3</mark>
+    </student>
+    <student>
+        <lastname>Гутор</lastname>
+        <firstname>Алексей</firstname>
+        <mark>9</mark>
+    </student>
+    <student>
+        <lastname>Позин</lastname>
+        <firstname>Семен</firstname>
+        <mark>5</mark>
+    </student>
+    <student>
+        <lastname>Попов</lastname>
+        <firstname>Арсений</firstname>
+        <mark>6</mark>
+    </student>
+</students>
