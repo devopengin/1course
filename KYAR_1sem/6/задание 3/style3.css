@@ -1,0 +1,15 @@
+.gallery{
+      text-align: center;
+}
+figure{
+      padding: 53px;
+      display: block;
+      width: 150px;
+      float: left;
+      margin: 0 10px 10px 0;
+      text-align: center;
+}
+figure figcaption{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+}

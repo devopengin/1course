@@ -1,0 +1,38 @@
+.ik2 {
+  zoom: 150%;
+}
+
+table {
+  margin: auto;
+  empty-cells: hide;
+}
+td {
+  width: 60px;
+  height: 15px;
+  padding: 3px;
+  text-align: center;
+  border: 1px solid #595959;
+}
+tr:first-child {
+  height: 50px;
+}
+th {
+  border: 1px solid #595959;
+  font-size: 1.2em;
+  text-align: center;
+  background-color: darkblue;
+}
+td:nth-child(2) {
+  background-color: rgb(100, 182, 236);
+}
+
+td:nth-child(3) {
+  background-color: purple;
+}
+td:nth-child(4) {
+    background-color: green;
+  }
+h1, p{
+    font-size: 20px;
+    text-align: center;
+}

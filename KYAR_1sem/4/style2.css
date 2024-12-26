@@ -1,0 +1,44 @@
+.first{
+    border-left: 3px solid brown;
+    border-bottom: 3px solid yellow;
+    border-right: 3px solid darkblue; 
+    border-top: 3px solid orange;
+}
+.second{
+    border-left: 3px solid #007BA7; 
+    border-right: 3px solid #007BA7;
+}
+.third{
+    border-top: 3px solid rgb(229, 43, 80); 
+    border-left: 3px dashed blue; 
+    border-right: 3px dashed blue; 
+    border-bottom: 3px dashed blue;
+}
+.fourth{
+    border: 1px dotted orange; 
+}
+.fifth{
+    border-top: 3px solid darkblue; 
+    border-bottom: 3px solid darkblue; 
+    border-left: 3px dashed darkred; 
+    border-right: 3px dashed darkred;
+}
+.sixth{
+    border: 3px double #B3446C;
+}
+.seventh{
+    border-top: 1px dashed #808000; 
+    border-bottom: 3px solid #FF7518;
+}
+.eighth{
+    border-left: 3px double #CC7722; 
+    border-bottom: 3px double #CC7722;
+}
+.nineth{
+    border-right: 3px ridge #B5A642; 
+    border-top: 3px ridge #B5A642;
+}
+.tenth{
+    border: 5px dotted rgb(0, 40, 0); 
+    border-top-style: none;
+}

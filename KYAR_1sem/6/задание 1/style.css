@@ -1,0 +1,79 @@
+h3{
+    font-size:4;
+    color:MidnightBlue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:blue;
+    text-align: center;
+}
+body{
+    background-image: url(../image1/it_bstu10.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-color: azure;
+}
+.picture1 img{
+    float:left;
+}
+.picture1{
+    text-indent: 25px;
+    font-size: 20px;
+}
+.picture2 img{
+    float:right;
+}
+.picture2{
+    margin-top:30px;
+    text-indent:25px;
+    font-size:20px;
+}
+img.img1{
+    clear: none;
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+img.img2{
+    float: right;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    clear: none;
+}
+.first{
+    font-family: 'Times New Roman', Times, serif;
+    color:Aquamarine;
+}
+.span1{
+    color: rgb(222, 190, 73);
+}
+.second{
+    font-size:1.2em;
+    color:CornflowerBlue;
+    font-family:'Times New Roman', Times, serif;
+}
+.third{
+    font-size:1.2em;
+    color:lawngreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.abz{
+    font-size:1.5em;
+    color:midnightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.spani{
+    color:green;
+}
+table, th, td{
+    border: 1px solid rgb(8, 8, 8);
+}
+ul li {
+    list-style: none;
+    background-image: url(../image1/checkbox1.jpg);
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+

@@ -1,0 +1,24 @@
+.ik{
+	width: 100%;
+	border-collapse:collapse;
+    border-spacing: 0;
+	
+}
+td, th {
+	padding: 3px;
+	width: 30px;
+	height: 35px;
+    text-align: center;
+    border: 1px solid #595959;
+}
+
+tr:first-child
+{
+    background-color: #347c99;
+}
+td:first-child{
+    background-color: #0fd0e6;
+}
+h1{
+    font-size:20px;
+}
