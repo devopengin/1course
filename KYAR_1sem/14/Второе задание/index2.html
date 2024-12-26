@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <svg width="500" height="200">
+            <defs>
+                <path id="test" d="M25,75 Q100,25 175,75 T 325,75 T475, 75 T 625,75" />
+            </defs>
+            <use xlink:href="#test" fill="none" stroke="blue" stroke-width="2"/>
+            <text x="5%">
+                <textPath xlink:href="#test" fill="green" font-size="36px">
+                    Текст текст текст текст текст             
+                </textPath> 
+            </text> 
+        </svg>
+        <svg width="900" height="450">
+            <circle r="70" fill="blue" cx="150" cy="250"></circle>
+            <rect x="250" y="190" width="200" height="120" fill="red"></rect>
+            <ellipse fill="green" cx="600" cy="250" rx="120" ry="60"></ellipse>
+            <polygon fill="yellow" points="730,300 820,170 900,300"></polygon>
+            <polyline stroke-width="4px" stroke="purple" fill="none" points="110,360 620,360 450,420 900,420"></polyline>
+        </svg>
+</body>
+</html>

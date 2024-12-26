@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image-1 img{
+            height: 300px;
+        }
+        .gallery{
+            display:flex;
+            justify-content: center;
+        }
+        
+        .gallery img{
+            padding:10px;
+        }
+        .description {
+      display: none;
+    }
+        
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <div id="cont"><img id="area" src="../Первое задание/bear.jpg" alt="медведь" ></div>
+        <div id="description">
+            <p>Описание первой фотографии</p>
+            <p>Еще одно описание</p>
+          </div>
+        <img id="photo2" src="../Первое задание/bee.jpg" alt="овца">
+        <img id="photo3" src="../Первое задание/bird.jpg" alt="птица">
+    </div>
+</body>
+<script>
+const firstPhoto = document.getElementById('area');
+const description = document.getElementById('description');
+
+    firstPhoto.addEventListener('mouseover', function() {
+      description.style.display = 'block';
+      firstPhoto.style.display = "none";
+      description.style.marginTop = "50px";
+      description.style.marginRight = "20px"
+    })
+    firstPhoto.addEventListener('mouseleave', function() {
+      description.style.display = 'none';
+      firstPhoto.style.display = "block";
+      description.style.marginTop = "0";
+    })
+
+document.getElementById("photo2").addEventListener("click", function(){
+    document.getElementById("photo2").style.border="solid 10px red"
+})
+let text = document.getElementById("photo2")
+document.getElementById("photo3").addEventListener("mouseover", function(){
+    document.getElementById("photo3").src="../Первое задание/bird1.jpg"
+})
+document.getElementById("photo3").addEventListener("mouseleave", function(){
+    document.getElementById("photo3").src="../Первое задание/bird.jpg"
+})
+
+</script>
+</html>

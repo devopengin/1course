@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <svg width="650" height="200">
+            <defs>
+                <path id="test" d="M25,75 Q100,25 175,75 T 325,75 T475, 75 T 625,75" />
+            </defs>
+            <use xlink:href="#test" fill="none" stroke="blue" stroke-width="2"/>
+            <text x="5%">
+                <textPath xlink:href="#test" fill="green" font-size="36px">
+                    Текст текст текст текст текст текст             
+                </textPath> 
+            </text> 
+        </svg>
+</body>
+</html>
