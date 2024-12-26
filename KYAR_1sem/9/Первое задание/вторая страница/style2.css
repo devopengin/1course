@@ -1,0 +1,36 @@
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr .1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap:10px;
+    grid-row-gap: 10px;
+    }
+.third{
+    text-align: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+    border: 2px solid #000;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding:10px 5px 10px 5px;
+}
+.first{
+    border: 2px solid #000;
+    padding: 10px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.second{
+    border: 2px solid #000;
+    padding: 10px;
+    grid-row-start:1;
+    grid-row-end:2;
+}
+body>div>div{
+    border: 2px solid #000;
+}
+
