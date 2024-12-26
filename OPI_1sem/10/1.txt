@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+hello people
+=======
+hello world
+>>>>>>> test2
