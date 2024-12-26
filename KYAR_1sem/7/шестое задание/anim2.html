@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 4</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .image-container {
+            position: relative;
+        }
+
+        .image {
+            width: 100px;
+            height: 100px;
+            background-image: url(images/cat3.jpg); 
+            background-size: cover;
+            position: absolute;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+
+        /* Эффект 4.1: Перемещение по горизонтали */
+        @keyframes pervoe {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(200px);
+            }
+        }
+
+        /* Эффект 4.2: Перемещение с изменением формы */
+        @keyframes vtoroe {
+            0% {
+                transform: scale(1);
+                right: 0;
+            }
+            50% {
+                border-radius: 50px ;
+                right: 100px;
+            }
+            100% {
+                border-radius: 150px;
+                right: 200px;
+            }
+        }
+
+        /* Эффект 4.3: Появление и скрытие слева и справа */
+        @keyframes tretie {
+            0% {
+                left: -100px;
+                opacity: 1;
+            }
+            100% {
+                left: 100%;
+                opacity: 0;
+            }
+        }
+
+        /* Эффект 4.4: Перемещение вниз */
+        @keyframes chetire {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(200px);
+            }
+        }
+
+        /* Эффект 4.5: Перемещение по траектории квадрата */
+        @keyframes piatoe {
+            0% {
+                left: 0;
+                top: 0;
+            }
+            25% {
+                left: 100px;
+                top: 0px;
+            }
+            50% {
+                left: 100px;
+                top: 100px;
+            }
+            75% {
+                left: 0;
+                top: 100px;
+            }
+            100% {
+                left: 0;
+                top: 0;
+            }
+        }
+
+        .image1 {
+            animation-name: pervoe;
+        }
+
+        .image2 {
+            animation-name: vtoroe;
+        }
+
+        .image3 {
+            animation-name: tretie;
+        }
+
+        .image4 {
+            animation-name: chetire;
+        }
+
+        .image5 {
+            animation-name: piatoe;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 300px;
+            animation: h1 4s linear infinite;
+        }
+
+        @keyframes h1 {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 0.8;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    </style>
+</head>
+<body>
+    <h1>Заголовок</h1>
+    <div class="image-container">
+        <div class="image image1"></div>
+        <div class="image image2"></div>
+        <div class="image image3"></div>
+        <div class="image image4"></div>
+        <div class="image image5"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Задание 4
+        </title>
+        <style>
+            ul li { 
+                display: inline;
+                float: left;
+                zoom:150%;
+            }
+            ul a {
+                display: inline-block;
+                border: 1px solid black;
+                padding: 5px 40px 5px 40px;
+                background-color: yellow;
+                text-decoration: none;
+                color: blue;
+            }
+            .bstu {
+                background: url(facultet.png);
+                background-size:30px auto;
+                background-repeat: no-repeat;
+            }
+            .nav li a {
+                background: url(facultet.png);
+                background-size:30px auto;
+                background-repeat: no-repeat;
+            }
+            .nav .pim a:hover {
+                background-position: 0 -90px;
+            } 
+            .nav .xtit a:hover {
+                background-position: 0 -60px;
+            }
+            .nav .it a:hover {
+                background-position: 0 -30px;
+            }
+            ul li { 
+                float: left;
+                margin-left:20px;
+                zoom:150%;
+            }
+            ul a {
+                display: inline-block;
+                text-decoration: none;
+                color: #000;
+                text-align: center;
+            }
+            nav>ul>li {
+            width:150px;
+            position: relative;
+            }
+            nav li a {
+            display: block;
+            border: 1px solid black;
+            padding:5px;
+            text-decoration: none;
+        } 
+            nav li .spisok a {
+            display: block;
+            color: black;
+            background: rgb(225, 233, 7);
+            padding: 5px;
+            text-decoration: none;
+            margin-left:-47px;
+            font-size:10px;
+        }
+        nav li .spisok {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left:0;
+        }
+        nav li:hover .spisok{
+            display: block;
+            text-decoration: none;
+        }
+        nav ul .it li {
+            width:54px;
+        }
+        body{
+            margin-top:30px;
+            background-color: bisque;
+        }
+        </style>
+    </head>
+    <body>
+        <nav class="nav">
+            <ul>
+                <li class="bstu"><a href="https://www.belstu.by/" target="_blank">БГТУ</a></li>
+                <li class="it"> <a href="https://it.belstu.by/" target="_blank">ИТ</a>
+                    <ul class="spisok">
+                        <li><a href="https://isit.belstu.by/">Кафедра ИСиТ</a></li>
+                        <li><a href="https://belstu.by/fakultety/fit/ivd/">Кафедра ИиВД</a></li>
+                        <li><a href="https://belstu.by/fakultety/fit/pi/">Кафедра ПИ</a></li>
+                      </ul>
+                </li>
+                <li class="pim"> <a href="https://pim.belstu.by/" target="_blank">ПиМ</a></li>
+                <li class="xtit"> <a href="http://htit.muzklip.com/" target="_blank">ХТиТ</a></li>
+            </ul>
+    </body>
+</html>

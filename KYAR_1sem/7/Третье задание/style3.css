@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.pictures{
+    text-align: center;
+    margin-top:30px;
+    perspective: 300px;
+    margin-left:40px;
+    margin-right:40px;
+    perspective-origin: center;
+}
+.pictures img{
+    padding:50px;
+}
+.picture-1{
+    transform:rotateX(20deg);
+}
+.picture-2{
+    transform: rotateY(15deg);
+}
+.picture-3{
+    transform:rotateX(20deg)
+}
+.picture-4{
+    transform: rotateY(-15deg);
+}
+h1 {
+    text-align: center;
+    animation: h1 4s linear infinite;
+}
+
+@keyframes h1 {
+0% {
+    opacity: 0;
+}
+50% {
+    opacity: 0.8;
+}
+100% {
+    opacity: 0;
+}
+}

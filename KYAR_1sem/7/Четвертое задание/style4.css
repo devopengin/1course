@@ -1,0 +1,89 @@
+img {
+    height: 100px;
+    width: 150px;
+    margin-top: 50px;
+    zoom:150%;
+}
+.pictures{
+    margin-left:200px;
+    margin-top: 40px;
+}
+.picture-1{
+  animation: first 5s;  
+}
+.picture-2{
+    animation: second 5s;
+}
+.picture-3{
+    animation: third 5s;  
+  }
+.picture-4{
+      animation: fourth 5s;
+}
+@keyframes first{
+    0%{
+        transform: perspective(100px) rotateY(50deg);
+        margin-left: 100px;
+    }
+    50%{
+        margin-left: 2px;
+    }
+    100%{
+        margin-left: 2px;
+    }
+}
+@keyframes second{
+    0%{
+        transform: perspective(100px) rotateY(50deg);
+        margin-left: -130px;
+    }
+    50%{
+        margin-left: -140px;
+    }
+    100%{
+        margin-left: 2px;
+        filter: blur(10px);
+    }
+}
+@keyframes third{
+    0%{
+        transform: perspective(100px) rotateY(50deg);
+        margin-left: -130px;
+    }
+    50%{
+        margin-left: -140px;
+    }
+    100%{
+        margin-left: 2px;
+        filter: grayscale(1);
+    }
+}
+@keyframes fourth{
+    0%{
+        transform: perspective(100px) rotateY(50deg);
+        margin-left: -130px;
+    }
+    50%{
+        margin-left: -140px;
+    }
+    100%{
+        margin-left: 2px;
+        filter: invert(1);
+    }
+}
+h1 {
+    text-align: center;
+    animation: h1 4s linear infinite;
+}
+
+@keyframes h1 {
+0% {
+    opacity: 0;
+}
+50% {
+    opacity: 0.8;
+}
+100% {
+    opacity: 0;
+}
+}

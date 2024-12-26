@@ -1,0 +1,21 @@
+nav{
+    overflow: hidden;
+  background-color: yellow;
+  font-family: Arial;
+}
+.second{
+    float: left;
+  overflow: hidden;
+}
+.menu{
+    font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  font-family: inherit;
+  margin: 0;
+}
+.menu a{
+    text-decoration: none;
+}
